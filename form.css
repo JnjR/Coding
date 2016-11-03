@@ -1,0 +1,29 @@
+/*sForm*/
+
+form {
+    padding-bottom: 2em;
+}
+
+input {
+    padding: 6px 12px 6px 12px;
+    border: 1px solid #665544;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+input.submit {
+    background-color: rgb(240, 78, 45);
+    border-radius: 5px;
+}
+
+input.submit:active {
+    background-color: chocolate;
+}
+
+input.text {
+    color: #cccccc;
+}
+
+input.text:focus {
+    color:#665544;
+}

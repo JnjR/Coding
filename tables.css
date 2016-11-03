@@ -1,0 +1,22 @@
+/*Table styles*/
+
+table {
+    font-family: Arial, Verdana, sans-serif;
+    color: #111111;
+    width: 600px;
+    padding-left: 10%;
+}
+
+th, td {
+    padding: 7px 10px 10px 10px;
+    font-size: 80%;
+}
+
+th {
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 80%;
+    border-bottom: 2px solid #111111;
+    border-top: 1px solid #999;
+    text-align: left;
+}

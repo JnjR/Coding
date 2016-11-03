@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>JS - Chapter 1</title>
+	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="form.css">
+	<link rel="stylesheet" href="tables.css">
+</head>
+<body>
+	<div id="main">
+		<section>
+			<h1>Chapter 1: Values, Types and Operators</h1>
+
+			<p>Learning to program is about getting down to the level of the computer to make it di things. In this chapter, I learned that a computer only takes in, processes and outputs data. Ultimately, the computer processes astronomically large numbers of bits (two-valued like switches). Data is represented in chunks of bits called values.</p>
+
+			<blockquote>"This gives you enough information to use JavaScript as a pocket calulator, but not much more" - Eloquent JavaScript, p.20</blockquote>
+
+			<p>JavaScript uses 64 bits to represent a value. Theoretically, this means it can represent 2<sup>64</sup> numbers or 18 quintilion (18 with 18 zeroes). In practice, bits are needed to store negative numbers and the decimal parts of nonwhole numbers. As such, 64 bits gives somethings closer to 9 quadrillion (9 and 15 zeros).</p>
+
+			<p>Number is just one type of value. There are a total of six types of values in the languague:</p>
+
+			<ul>
+				<li>Numbers</li>
+				<li>Strings</li>
+				<li>Booleans</li>
+				<li>Objects</li>
+				<li>Functions</li>
+				<li>Undefined Values</li>
+			</ul>
+
+			<p>To find out the type of a value, you can use the <code>typeof</code> function. Each type of value has a corresponding set of operators that can be used to manupulate them. For examples, arithmetic operators act on numbers and logical operators act on Booleans. Below is a summary table that captures all six value types of JavaScript and their corresponding operators:</p>
+
+			<table>
+				<tr>
+					<th>Value Type</th>
+					<th>Operators</th>
+				</tr>
+				<tr>
+					<td>Numbers</td>
+					<td>+, -, *, /, %</td>
+				</tr>
+				<tr>
+					<td>Strings</td>
+					<td>Concatinate (+)</td>
+				</tr>
+				<tr>
+					<td>Booleans</td>
+					<td>&&, ||, !</td>
+				</tr>
+				<tr>
+					<td>Objects</td>
+					<td>To be filled in later</td>
+				</tr>
+				<tr>
+					<td>Functions</td>
+					<td>To be filled in later</td>
+				</tr>
+				<tr>
+					<td>undefined Values</td>
+					<td>To be filled in later</td>
+				</tr>
+			</table>
+
+
+		</section>
+
+		<aside>
+			<h2>Bonus</h2>
+			<p>This reminds me of Frege's breakthrough that not just numbers can be arguments of functions. Whereas mathematical functions are mappings from numbers to numbers, he founded modern logic on the insight that functions can map from truth value to truth value or even function to function.</p>
+		</aside>
+	</div> <!-- /#main -->
+
+	<nav>
+		<form>
+			<input type="text" class="text" value="Please enter your email address here ..." />
+			<input type="submit" class="submit" />
+		</form>
+
+		<p>&copy;2016 @TRUEFICTIONS. Image credit: Linda Xu on <a href="https://unsplash.com/photos/arvoZ9puXv4">Unsplash.com</a></p>
+	</nav>
+	
+</body>
+</html>
